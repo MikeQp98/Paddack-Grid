@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paddock News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="contenedor contenido-header">
+            <h1>Paddock News</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#Pilotos">Pilotos</a>
+                <a href="#Calendario">Calendario</a>
+                <a href="#galeria">Galeria</a>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Paddock News</h2>
+                <p>Las Mejores Noticas de F1</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/Formula 1.mp4" type="video/mp4">
+            <source src="video/Formula 2.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/formula-1-abu-dhabi-gp-2021-en-2.avif" type="image/avif">
+                <source srcset="build/img/formula-1-abu-dhabi-gp-2021-en-2.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="img/formula-1-abu-dhabi-gp-2021-en-2.jpg" alt="Imagen Pilotos ">
+            </picture>
+        
+        </div>
+
+        <div class="contenido-festival">
+
+            <h2>Mundial de Pilotos 2021</h2>
+            <p class="fecha"> Resultados del Mundial de Pilotos</p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of 
+                a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+
+        </div>
+    </section>
+
+    <section id="Calendario" class="lineup">
+
+        <h3>Calendario</h3>
+
+        <p class="dia"> Calendario Oficial 2021</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class= "escenario rock bg-amarillo">
+                <p class="nombre-escenario">Primera Mitad</p>
+
+                <ul class="Calendario">
+
+                    <li>
+                        28/03 | <span>Circuito Internacional de Baréin, Sakhir</span>
+                    </li>
+                    <li>
+                        18/04 | <span>Autodromo Enzo e Dino Ferrari, Imola</span>
+                    </li>
+                    <li>
+                    02/05 | <span>Autódromo Internacional do Algarve, Portimão</span>
+                    </li>
+
+                    <li>
+                        09/05 | <span>Circuito de Barcelona-Cataluña, Montmeló</span>
+                    </li>
+                    <li>
+                        23/05 | <span>Circuito de Mónaco, Montecarlo</span>
+                    </li>
+                    <li>
+                        06/06 | <span>Circuito callejero de Bakú, Bakú</span>
+                    </li>
+                    <li>
+                        20/06 | <span>Circuito Paul Ricard, Le Castellet</span>
+                    </li>
+                    <li>
+                    27/06 
+                    & 04/07 <span> Red Bull Ring, Spielberg</span>
+                    </li>
+                    <li>
+                    18/07 | <span> Circuito de Silverstone, Silverstone </span>
+                    </li>
+                    <li>
+                        1/08 | <span>Hungaroring, Mogyoród</span>
+                    </li>
+                    <li>
+                        29/08 | <span>Circuito de Spa-Francorchamps, Spa</span>
+                    </li>
+                   
+                  
+                  
+                    
+                   
+                    
+
+                </ul>
+
+            </div>
+
+            <div class= "escenario edm bg-verde">
+                <p class="nombre-escenario">Segunda Mitad</p>
+
+                <ul class="Calendario">
+                    <li>
+                        28/03 | <span>Circuito de Zandvoort, Zandvoort</span>
+                    </li>
+                    <li>
+                        18/04 | <span>Autodromo Nazionale di Monza, Monza</span>
+                    </li>
+                    <li>
+                    02/05 | <span>Autódromo de Sochi, Sochi</span>
+                    </li>
+
+                    <li>
+                        09/05 | <span>Circuito de Estambul, Estambul</span>
+                    </li>
+                    <li>
+                        23/05 | <span>Circuito de las Américas, Austin</span>
+                    </li>
+                    <li>
+                        06/06 | <span> Autódromo Hermanos Rodríguez, Ciudad de México</span>
+                    </li>
+                    <li>
+                        20/06 | <span>Autódromo José Carlos Pace, São Paulo</span>
+                    </li>
+                    <li>
+                    18/07 | <span> Circuito de la Corniche de Yeda, Yeda</span>
+                    </li>
+                    <li>
+                        1/08 | <span>Circuito Yas Marina, Isla Yas, Abu Dabi</span>
+                    </li>
+                    
+                   
+
+                </ul>
+
+            </div>
+
+        </div> 
+  
+        
+
+     
+
+
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+    
+    <h3>Galería</h3>
+
+
+    <ul class="galeria-imagenes"></ul>
+
+</section>
+
+<section id="Pilotos" class="boleto bg-verde">
+
+    <h3> Mundial de Pilotos & Constructores </h3>
+
+    <div class="contenedor contenedor-boletos">
+        <div class="basico pase">
+           
+            <header class="pase-header">
+                <p class="mete">Mundial de Pilotos</p>
+            </header>
+            <div class="pase-body">
+                <ul>
+                    <li>Max Verstappen - 395.5pts</li>
+                    <li>Lewis Hamilton - 387.5pts</li>  
+                    <li>Valteri Bottas - 226pts</li>
+                    <li>Sergio Perez - 190pts</li>  
+                    <li>Carlos Sainz - 164.5pts</li>
+                   
+                </ul>
+            </div>
+        </div>
+
+        <div class="basico pase">
+           
+            <header class="pase-header">
+                <p class="mete">Mundial de Constructores</p>
+            </header>
+            <div class="pase-body">
+                <ul>
+                    <li>Mercedes - <span class="peo"> 613.5pts</span> </li>
+                    <li>Redbull Racing - 585.5pts</li> 
+                    <li>Ferrari - 323.5pts</li>
+                    <li>Mclaren - 275pts</li>   
+                    <li>Alpine F1 Team - 155 pts</li>   
+                </ul>
+            </div>
+        </div>
+       
+        
+    </div>
+
+</section>
+
+<footer class="site-footer">
+    <p>Paddock Grid. Todos los Derechos Rerservados.</p>
+
+
+</footer>
+
+<script src="build/js/galeria.js"></script>
+</body>
+</html>
